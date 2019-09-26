@@ -5,7 +5,7 @@ from keras.layers.pooling import MaxPooling2D
 from keras.preprocessing import text
 
 class CLCNN_model(object):
-  def __init__(self, input_shape, output_shape, embed_size=128, filter_sizes=(1,2,3,4,5), filter_num=64):
+  def __init__(self, input_shape, embed_size=128, filter_sizes=(1,2,3,4,5), filter_num=64):
     vec_shape, num_shape, cat_shape = input_shape
     
     """ input layer """

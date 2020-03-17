@@ -1,4 +1,4 @@
-# character-level-cnn_keras
+# Character-Level-CNN_keras
 character-level-cnn written by keras.  
 character-level-cnnをkerasで実装しました．  
 
